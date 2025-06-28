@@ -8,7 +8,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
-GEMINI_API_KEY = "AIzaSyCg5nIJmlIYr-8Ez_aZmO7RsxwNde4wfUE"
+GEMINI_API_KEY = ""
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Pure functions for LLM operations
